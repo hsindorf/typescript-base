@@ -2,4 +2,6 @@ function sayHello(): string {
   return 'hello';
 }
 
-sayHello();
+// sayHello();
+
+1 + 2;

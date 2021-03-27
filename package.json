@@ -8,8 +8,8 @@
     "start": "npm run build && node build/index.js",
     "dev": "npx ts-node src/index.ts",
     "build": "rm -rf dist/ && tsc",
-    "lint": "eslint . --ext .ts",
-    "lint-and-fix": "eslint . --ext .ts --fix"
+    "lint": "npx eslint . --ext .ts",
+    "format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "keywords": [],
   "author": "",
@@ -28,7 +28,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint-and-fix"
+      "pre-commit": "npm run lint"
     }
   }
 }
