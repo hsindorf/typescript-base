@@ -9,7 +9,6 @@
     "prettier"
   ],
   "rules": {
-    "prettier/prettier": "error",
-    "no-unused-expressions": "error"
+    "prettier/prettier": "error"
   }
 }

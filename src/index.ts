@@ -1,7 +1,3 @@
-function sayHello(): string {
+export function sayHello(): string {
   return 'hello';
 }
-
-// sayHello();
-
-1 + 2;
